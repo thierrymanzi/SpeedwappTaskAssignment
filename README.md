@@ -18,7 +18,7 @@
 
  #### Flowchart image of explainations
  
- ![Explainations](../images/functionality.PNG)
+ ![Explainations](images/functionality.PNG)
  
   #### To run the project visit 
  (https:speedwappassignment.herokuapp.com/)
@@ -289,7 +289,7 @@ margin-left: 15px;
 
   ### Project user interface
   
- ![speedwapp assignment](C:/Users/Admin/Desktop/Speedwapp_Task_Assignment/interfaceimage.png)
+ ![speedwapp assignment](images/interfaceimage.png)
  
  
  ### Recommendation 

@@ -18,7 +18,7 @@
 
  #### Flowchart image of explainations
  
- ![Explainations](images/functionality.png)
+ ![Explainations](../images/functionality.PNG)
  
   #### To run the project visit 
  (https:speedwappassignment.herokuapp.com/)
@@ -27,7 +27,7 @@
   To run the project visit [Test Link](https:speedwappassignment.herokuapp.com/) or copy and paste  the URL [https://www.speedwappassignment.herokuapp.com](https://speedwappassignment.herokuapp.com/) in your browser(IEE,Mozilla Firefox,,Safari and Chrome,etc..) are supported.
   
   ### Project file structure
-  ![project folder structure](SpeedwappTaskAssignment/structure.png)
+  ![project folder structure](images/structure.PNG)
   
   [Test Link](https:speedwappassignment.herokuapp.com/) or copy and paste  the URL [https://www.speedwappassignment.herokuapp.com](https://speedwappassignment.herokuapp.com/)
   

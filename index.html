@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Speedwapp assignment</title>
+    
+<!--	Calling all css file located in our local folder of our project-->
+    <link  type="text/css"  rel="stylesheet" href="css/style.css">
+    <link type="text/css"   rel="stylesheet" href="jqueryui/jquery-ui.css" >
+    <link type="text/css"   rel="stylesheet" href="jqueryui/jquery-ui.structure.css">
+    <link  type="text/css" rel="stylesheet"  href="jqueryui/jquery-ui.theme.css">
+    
+<!--    calling all javascript files located in in our project sub folder-->
+  <script type=text/javascript src="js/jquery.js"></script>
+  <script type=text/javascript src="jqueryui/jquery-ui.js"></script>   
+
+	<script>
+        
+// The start of jquery function to postion our widget
+        
+		$(function() {
+            
+			
+        function position() {           //creation of function named position
+				
+         $(".position_widget").position({                                         
+
+       my: $("#myHorizontalPositionID").val() +" " + $("#myVerticalPositionID").val(),  //vertical & horizontal of my position of our tagert element
+					
+       at: $("#atHorizontalPositionID").val()+ " " + $("#atVerticalPositionID").val(), 
+					
+       of: $("#parentDivID"),
+					
+             
+collision: $("#collHorizontalPositionID").val() +" " + $("#collVerticalPositionID").val()
+
+            });}
+            
+
+			$("select,input").on("click keyup change", position); //select element to change the positon in our target element
+
+			$("#parentDivID").draggable({drag: position});            //A method that help us to drag the selected position
+
+			position();  //calling posiion function
+        });
+        
+//        The end of jquery function 
+        
+	</script>
+</head>
+   
+    
+<!--   the beggining of body tag -->
+<body style="align=">
+<!--	<h1>Position Widget using Jquery & Javascript</h1>-->
+	<h1>POSITION WIDGET USING JQUERY & JAVASCRIPT</h1>
+	<div class="height"> </div>
+
+	<div id="parentDivID">
+       <p>THIS THE PARENT TARGET ELEMENT</p>
+    </div>
+
+	<div class="position_widget" id="position_widgetId">
+     <p>Change my position</p>
+    </div>
+
+    
+<!--The beggining of our div with id optionDivID-->
+	<div id="optionsDivID">
+
+		<div class="selectDiv">
+			<b>Select "my" positions :</b>
+			<select id="myHorizontalPositionID">
+				<option value="left">left</option>
+				<option value="center">center</option>
+				<option value="right">right</option>
+			</select>
+			<select id="myVerticalPositionID">
+				<option value="top">top</option>
+				<option value="center">center</option>
+				<option value="bottom">bottom</option>
+			</select>
+		</div>
+        
+		<div class="selectDiv">
+			<b>Select "at" positions :</b>
+			<select id="atHorizontalPositionID">
+				<option value="left">left</option>
+				<option value="center">center</option>
+				<option value="right">right</option>
+			</select>
+			<select id="atVerticalPositionID">
+				<option value="top">top</option>
+				<option value="center">center</option>
+				<option value="bottom">bottom</option>
+			</select>
+           
+		</div>
+		<div class="selectDiv">
+			<b>Select collision options:</b>
+			<select id="collHorizontalPositionID">
+				<option value="flip">flip</option>
+				<option value="fit">fit</option>
+				<option value="flipfit">flipfit</option>
+				<option value="none">fit none</option>
+			</select>
+			<select id="collVerticalPositionID">
+				<option value="flip">flip</option>
+				<option value="fit">fit</option>
+				<option value="flipfit">flipfit</option>
+				<option value="none">none</option>
+			</select>
+		</div>
+	</div>
+<!--The end of our div with id optionDivID-->
+
+    
+
+    
+</body>
+
+<!--    The end of body tag-->
+    
+</html>

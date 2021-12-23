@@ -18,7 +18,7 @@
 
  #### Flowchart image of explainations
  
- ![Explainations](../functionality.png)
+ ![Explainations](images/functionality.png)
  
   #### To run the project visit 
  (https:speedwappassignment.herokuapp.com/)

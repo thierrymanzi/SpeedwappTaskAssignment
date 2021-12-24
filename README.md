@@ -1,7 +1,7 @@
  # **Speedwapp Task Assignment using jquery**
  
  ### **Introduction**
- 'This project is aim to return the position of widget in a tagerted element to return the following output in vertical and horizontal position:'
+ 'This project is aim to return the position of widget in a tagerted element and give the output in vertical and horizontal position:'
  
  * Top left
  * Top center
